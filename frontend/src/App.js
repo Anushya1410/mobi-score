@@ -5,6 +5,8 @@ import MyTeamMatches from './components/MyTeamMatches';
 import Courts from './components/courts';
 import PlayersList from './components/playerslist';
 import Team from './components/team';
+import Board from './components/board';
+import CompactScoreboard from './components/CompactScoreboard';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/courts" element={<Courts />} />
         <Route path="/PlayersList" element={<PlayersList />} />
         <Route path="/Myteam" element={<Team />} />
+        <Route path="/board" element={<Board />} />
+        <Route path="/ui" element={<CompactScoreboard />} />
       </Routes>
     </Router>
   );
